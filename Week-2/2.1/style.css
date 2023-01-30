@@ -5,55 +5,54 @@ body {
     flex-direction: column;
 }
 
-.Header{
+.Header {
     display: flex;
     justify-content: center;
 }
-.maindiv{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
-.div1{
+.div1 {
     display: flex;
     justify-content: space-between;
-margin-top: 20px;
-margin-left: 40px;
-margin-right: 40px;
-
-
-
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
 
-.div2{
+.div2 {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-   
+
 
 }
-.imgdiv{
+
+.imgdiv {
     display: flex;
     justify-content: center;
-   width: 50%;
-}
-
-.div3{
-    
-    width: 50%;
-   
-
-}
-
-.div1 p{
     width: 50%;
 }
 
+.div3 {
 
-.formdiv{
+    width: 50%;
+
+
+}
+
+.div1 p {
+    width: 50%;
+}
+
+
+.formdiv {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
@@ -61,6 +60,6 @@ margin-right: 40px;
     width: 50%;
 }
 
-.forminputdiv{
+.forminputdiv {
     margin-top: 5px;
 }
