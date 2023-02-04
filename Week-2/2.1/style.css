@@ -1,0 +1,65 @@
+body {
+    background-color: lightgreen;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.div2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.div3 {
+
+    width: 45%;
+
+
+}
+
+.div1 p {
+    width: 45%;
+}
+
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 40px;
+    width: 45%;
+}
+
+.forminputdiv {
+    margin-top: 5px;
+}
