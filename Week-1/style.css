@@ -3,30 +3,32 @@ html * {
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.maindiv {
+    display: flex;
+    flex: 1;
+}
 
 .sidebar {
-    height: 81.6%;
-    width: 25px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+    display: flex;
+    flex-direction: column;
     background-color: beige;
-    overflow-x: hidden;
     padding-top: 20px;
 }
 
-.sidebar i.las {
-    margin-bottom: 79px;
+.sidebar i.las,
+.sidebar i.lab {
+    margin: 25px;
 }
 
-.sidebar i.lab {
-    margin-bottom: 79px;
-}
 
 .div1 {
     display: flex;
     margin-top: 0rem;
-    margin-left: 25px;
     left: 0;
     top: 0;
     background-color: #313131;
@@ -41,35 +43,36 @@ html * {
 }
 
 .headpara {
-    margin-top: 0;
-    margin-left: 200px;
-    line-height: 5;
+    margin-top: 25px;
+    margin-left: 50px;
     font-weight: 800;
     color: white;
+    font-size: xx-large;
 }
 
 .headpara1 {
-    margin-top: 0px;
-    margin-left: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
     color: white;
 }
-
+.div3{
+    flex: 1;
+}
 .headpara2 {
-    line-height: 1;
-    margin-left: 200px;
+    margin-left: 50px;
     color: white;
 }
 
 .div1 i.las {
-    margin-top: 90px;
-    margin-left: 200px;
+    margin-top: 143px;
+    margin-left: 50px;
     color: white;
 }
 
 
 .songtable {
     margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .tablerow {
@@ -81,10 +84,13 @@ html * {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+td{
+    padding: 10px;
+}
 .box {
     border: 1px solid black;
     width: 100px;
+    height: 10px;
 }
 
 .songtable tbody tr:nth-child(even) {
@@ -97,17 +103,18 @@ html * {
     background: lightskyblue;
     margin-left: 0;
     display: flex;
-    margin-top: 380px;
+
 }
 
 .footerpara1 {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 15px;
-    margin-bottom: 30px;
+    
 }
 
 .footerpara2 {
     margin-left: 15px;
+    padding-top: 15px;
 }
 
 .footerimg {
@@ -119,5 +126,11 @@ html * {
 
 .footerclass i.las {
     align-self: center;
-    margin-left: 300px;
+    
+}
+.footicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
 }
