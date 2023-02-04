@@ -37,18 +37,18 @@ body {
 .imgdiv {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 45%;
 }
 
 .div3 {
 
-    width: 50%;
+    width: 45%;
 
 
 }
 
 .div1 p {
-    width: 50%;
+    width: 45%;
 }
 
 
@@ -57,7 +57,7 @@ body {
     flex-direction: column;
     margin-top: 5%;
     margin-left: 40px;
-    width: 50%;
+    width: 45%;
 }
 
 .forminputdiv {
