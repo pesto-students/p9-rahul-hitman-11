@@ -1,0 +1,136 @@
+html * {
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.maindiv {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding-top: 20px;
+}
+
+.sidebar i.las,
+.sidebar i.lab {
+    margin: 25px;
+}
+
+
+.div1 {
+    display: flex;
+    margin-top: 0rem;
+    left: 0;
+    top: 0;
+    background-color: #313131;
+}
+
+.div1 img {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: auto;
+}
+
+.headpara {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-weight: 800;
+    color: white;
+    font-size: xx-large;
+}
+
+.headpara1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.div3{
+    flex: 1;
+}
+.headpara2 {
+    margin-left: 50px;
+    color: white;
+}
+
+.div1 i.las {
+    margin-top: 143px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+.songtable {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.tablerow {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.tablerow1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+td{
+    padding: 10px;
+}
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 10px;
+}
+
+.songtable tbody tr:nth-child(even) {
+    background: #e8e7e1;
+    padding-top: 10px;
+}
+
+.footerclass {
+    position: relative;
+    background: lightskyblue;
+    margin-left: 0;
+    display: flex;
+
+}
+
+.footerpara1 {
+    margin-top: 25px;
+    margin-left: 15px;
+    
+}
+
+.footerpara2 {
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.footerimg {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.footerclass i.las {
+    align-self: center;
+    
+}
+.footicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
