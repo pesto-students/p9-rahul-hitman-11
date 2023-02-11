@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
 }
 
-.div1 {
+.divpara {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -24,7 +24,7 @@ body {
   margin-right: 40px;
 }
 
-.div2 {
+.imagemaindiv {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -36,11 +36,11 @@ body {
   width: 45%;
 }
 
-.div3 {
+.lastparadiv {
   width: 45%;
 }
 
-.div1 p {
+.divpara p {
   width: 45%;
 }
 
