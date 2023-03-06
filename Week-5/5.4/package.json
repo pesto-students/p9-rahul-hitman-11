@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "jest": "^29.4.3"
+  },
+  "name": "5.4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
