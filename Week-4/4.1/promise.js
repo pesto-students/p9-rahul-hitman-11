@@ -1,8 +1,8 @@
-function displayLog(some) {
-    if(Number(some) % 5 == 0){
-        setTimeout(() => console.log("Reject the promise " + some),2000);
+function displayLog(param) {
+    if(Number(param) % 5 == 0){
+        setTimeout(() => console.log("Reject the promise " + param),2000);
     }else{
-        setTimeout(() => console.log("Resolve the promise " + some),1000);
+        setTimeout(() => console.log("Resolve the promise " + param),1000);
     }
 }
 
